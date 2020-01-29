@@ -1,54 +1,52 @@
 basics:
-  name: Bastien Arata
-  label: Développeur
+  name: Marc de Saint Vincent
+  label: Ingénieur informatique
   picture: ../img/profile.jpg
-  email: bastyen.a@gmail.com
+  email: marc.saintvincent@gmail.com
   summary: >
-    Automatisation, partage & techno.
-    J'aime avoir du temps, donc je travaille dur pour que tout se fasse tout seul !
-    J'aime apprendre et partager (plutot open source, pas mon 🍔 !). Si ce n'est pas simple, ce n'est pas fini.
+    Apprendre toujours, faire les choses bien, prendre le temps pour en gagner.
   location:
-    city: Toulouse
+    city: Paris
     countryCode: FR
-    region: Occitanie
+    region: Île-de-France
   profiles:
     - network: Github
-      username: b4nst
+      username: MarvBob
     - network: Twitter
-      username: bastienarata
+      username: marv_bob
 
 work:
-  - company: D2SI
-    position: Consultant DevOps Cloud
-    website: https://d2si.io
-    startDate: "2019-02-01"
+  - company: Spirtech
+    position: Responsable du pôle qualité
+    website: https://spirtech.com
+    startDate: "2015-11-23"
     summary: >
-      Chez D2SI j'ai comme mission d'aider nos clients à créer, automatiser et renforcer leurs systèmes de déploiement.
-      C'est-à dire la mise en place de l'environment de developpement (git workflow, commit hooks, lint), jusqu'à la stack d'intégration/déploiement continu (docker, GithubAction, canari deployment).
-      J'ai aussi récemment pris les sujets de formation interne (hands-on, onboarding).
+      En tant que responsable de l'assurance qualité de Spirtech, j'ai un rôle de supervision et de gestion
+      de mon équipe (4 personnes) tout en participant aux tâches techniques.
+      Nous réalisons à la fois des missions d'expertise et de tests pour des clients externes
+      mais aussi toutle processus d'assurance qualité pour ce qui est réalisé en interne.
+      Nous essayons d'automatiser au maximum les différents tests à l'aide d'outils développés
+      par nos soins (Python) permettants l'exécution automatique de scénarios préécrits (TestLink).
+      Ces outils de tests s'interfacent donc avec différents objets (serveurs, bases de donnnées,
+      cartes à puce, téléphones mobiles) et sont en constante évolution.
     highlights:
-      - Automatisation du déploiement d'une stack serverless (AWS, Github) dans des environments prod, dev et intégration.
-      - Démarrage d'un projet microservices.
-      - Création de quelques hands-on (sur docker, CI/CD)
-  - company: Sigfox
-    position: Software factory engineer
-    website: https://www.sigfox.com
-    startDate: "2015-12-15"
-    endDate: "2018-12-01"
+      - Développement, évolution et maintenance d'outils de test (Python).
+      - Développement et mise en place du processus d'assurance qualité.
+      - Missions de tests de comformité aux standards pour des clients externes.
+  - company: Withings
+    position: Stagiaire en recherche et développement
+    website: https://www.withings.com
+    startDate: "2015-03-01"
+    endDate: "2015-08-25"
     summary: >
-      Chez Sigfox j'aidais les équipes backend et test à accélérer et renforcer le déploiement de la stack.
-      J'ai créé les pipelines d'intégration/déploiement, développement d'outils sur mesure. Les derniers mois j'ai participé à la refonte de la stack
-      backend (les parties docker/kubernetes). 
+      Mon stage chez Withings a porté sur l'étude de faisabilité d'une méthode de détéction
+      des apnées du sommeil au produit "Aura", réveil connecté permettant l'analyse du sommeil.
+      Lors de ces quelques mois au sein de l'équipe recherche et développement, j'ai traité
+      les différents signaux (Matlab/C) fournis par l'appareil en cherchant une méthode d'analyse
+      permettant d'y distinguer les apnées du sommeil.
     highlights:
-      - Dockerization de toute la stack backend.
-      - Développement d'outils sur mesure.
-
-publications:
-  - name: Personne dans le cockpit, pilote automatique
-    publisher: DEVOPS D-DAY
-    website: https://www.youtube.com/watch?v=QzYqVhiK524
-    releaseDate: "2019-11-14"
-    summary: Automatization du déploiement d'un chat serverless (AWS lambdas) grace à GithubAction. C'était une conférence publique (disponible sur YouTube), pendant la convention Devops D-Day.
+      - Recherche.
+      - Traitement du signal.
 
 education:
   - institution: Université Paul Sabatier
@@ -58,68 +56,50 @@ education:
     endDate: "2015-09-01"
     courses:
       - Developpement informatique
+      - Traitement du signal
       - Robotique
+  - institution: Université Paul Sabatier
+    area: Informatique
+    studyType: DUT
+    startDate: "2009-09-01"
+    endDate: "2011-09-01"
+    courses:
+      - Developpement informatique
 
 skills:
-  - name: Docker
+  - name: Développement logiciel
     level: master
+    keywords:
+      - Python
+      - QA
+  - name: Standards contactless
+    level: master
+    keywords:
+      - Calypso
+      - ISO14443
+  - name: Docker
+    level: Beginner
     keywords:
       - Docker
       - Orchestration
-  - name: CI/CD
-    level: master
-    keywords:
-      - DevOps
-      - GithubAction
-      - Drone
-  - name: Cloud
-    level: Intermediate
-    keywords:
-      - AWS
-      - Serverless
-  - name: Software development
-    level: intermediate
-    keywords:
-      - Typescript
-      - Microservices
-      - Go
-      - Rust
-  - name: Speaker
-    level: beginner
-    keywords:
-      - Keynote
-      - Hands-on
 
 languages:
   - language: Francais
     fluency: Native speaker
   - language: Anglais
     fluency: Fluent
+  - language: Espagnol
+    fluency: Beginner
 
 interests:
-  - name: 📖 Opensource
-    keywords:
-      - Github
-      - Talk
-      - Hands-on
   - name: 🎛️ Music
     keywords:
+      - Composition
+      - Arrangement
       - Production
-      - Ableton
-      - DJing
-      - Home studio
-  - name: 🚴 Vélo
-    keywords:
-      - Mécanique
-      - Course
-      - Transport
 
 # Error generated if this fields are null
-awards:
-  - title: "AWS Certified Solutions Architect - Associate"
-    date: "2020-01-10"
-    awarder: "aws"
-    summary: "[![logo](../img/aws_saa.png)](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2020-01-10&ci=AWS01214881)"
+awards: []
 volunteer: []
 publications: []
 references: []

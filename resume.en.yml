@@ -1,125 +1,103 @@
 basics:
-  name: Bastien Arata
-  label: Programmer
+  name: Marc de Saint Vincent
+  label: Software Engineer
   picture: ../img/profile.jpg
-  email: bastyen.a@gmail.com
+  email: marc.saintvincent@gmail.com
   summary: >
-    Automatization, sharing & techno.
-    I'm super lazy so I'm working super hard to make things be done by themselves. Kind of a paradox, right ?
-    I'm hungry to learn, to share (I mean open sourcing, not my 🍔 !). If it's not simple, it's not done.
+    Always learn, make things good, take time to save some.
   location:
-    city: Toulouse
+    city: Paris
     countryCode: FR
-    region: Occitanie
+    region: Île-de-France
   profiles:
     - network: Github
-      username: b4nst
+      username: MarvBob
     - network: Twitter
-      username: bastienarata
+      username: marv_bob
 
 work:
-  - company: D2SI
-    position: Cloud & DevOps consultant
-    website: https://d2si.io
-    startDate: "2019-02-01"
+  - company: Spirtech
+    position: QA Manager
+    website: https://spirtech.com
+    startDate: "2015-11-23"
     summary: >
-      At D2SI I'm being sent helping clients to create, automatize and strengthen their deployment procedures.
-      It goes from development environment (git trunk-based, commit hooks) to CI/CD (docker, canari deployment, GithubAction).
-      I also lead the internal hands-on lab process.
+      As a AQ manager for Spirtech, my role is to supervise and manage my team (4 people) while participating interne
+      technical tasks.
+      We perform expertise missions and tests for external clients but also all the quality assurance process for
+      everything that is developped internally.
+      We try to automate tests as much as we can by using home made testing tools (Python) allowing us to perform pre-written
+      scenarios (TestLink).
+      Those tools interface with differents objects such as servers, databases, smart cards, mobile phones, and are in constant evolution.
     highlights:
-      - Automatization of a serverless stack deployment (AWS, Github) in prod, dev & integration
-      - Kick start of a microservices oriented project
-      - Some hands-on creation (about docker, CI/CD)
-  - company: Sigfox
-    position: Software factory engineer
-    website: https://www.sigfox.com
-    startDate: "2015-12-15"
-    endDate: "2018-12-01"
+      - Development, evolution and maintenance of testing tools (Python).
+      - Development and set up of the quality assurance process.
+      - Tests of standards conformity compliance for external clients.
+  - company: Withings
+    position: Research and Development Intern
+    website: https://www.withings.com
+    startDate: "2015-03-01"
+    endDate: "2015-08-25"
     summary: >
-      At Sigfox I was helping the backend and test team to fasten and strengthen the deployment process.
-      It means creating CI/CD pipeline, developing custom tools. In my last months there, I participate to the early steps of the
-      backend refactoring (on the docker/kubernetes part)
+      My internship at Withings consisted in a study of feasability for sleep apnea detection using the
+      "Aura", a smart sleep monitoring device.
+      During those months at Withings, I made signal processing (Matlab/C) using data from the device, searching for
+      an analysis method to detect sleep apneas.
     highlights:
-      - Dockerization of the entire backend stack
-      - Custom test tool development
-
-publications:
-  - name: Personne dans le cockpit, pilote automatique
-    publisher: DEVOPS D-DAY
-    website: https://www.youtube.com/watch?v=QzYqVhiK524
-    releaseDate: "2019-11-14"
-    summary: Automatization of a serverless (AWS lambdas) chat with GithubAction. Public talk in french (available on YouTube), during the devops d-day convention.
+      - Research.
+      - Signal Processing.
 
 education:
   - institution: Université Paul Sabatier
-    area: Information Technology, Robotics
-    studyType: Bachelor
+    area: Robotics and Computer Science
+    studyType: Master's Degree
     startDate: "2012-09-01"
     endDate: "2015-09-01"
     courses:
-      - Software deployment
+      - Software Development
+      - Signal Processing
       - Robotics
+  - institution: Université Paul Sabatier
+    area: Computer Science
+    studyType: 2-years Degree
+    startDate: "2009-09-01"
+    endDate: "2011-09-01"
+    courses:
+      - Software Development
 
 skills:
-  - name: Docker
+  - name: Software development
     level: master
+    keywords:
+      - Python
+      - QA
+  - name: Contactless standards
+    level: master
+    keywords:
+      - Calypso
+      - ISO14443
+  - name: Docker
+    level: Beginner
     keywords:
       - Docker
       - Orchestration
-  - name: CI/CD
-    level: master
-    keywords:
-      - DevOps
-      - GithubAction
-      - Drone
-  - name: Cloud
-    level: Intermediate
-    keywords:
-      - AWS
-      - Serverless
-  - name: Software development
-    level: intermediate
-    keywords:
-      - Typescript
-      - Microservices
-      - Go
-      - Rust
-  - name: Speaker
-    level: beginner
-    keywords:
-      - Keynote
-      - Hands-on
 
 languages:
-  - language: French
+  - language: Francais
     fluency: Native speaker
-  - language: English
+  - language: Anglais
     fluency: Fluent
+  - language: Espagnol
+    fluency: Beginner
 
 interests:
-  - name: 📖 Opensource
-    keywords:
-      - Github
-      - Talk
-      - Hands-on
   - name: 🎛️ Music
     keywords:
-      - Producing
-      - Ableton
-      - DJing
-      - Home studio
-  - name: 🚴 Bike
-    keywords:
-      - Mechanics
-      - Riding
-      - Transportation
+      - Composition
+      - Arrangement
+      - Production
 
 # Error generated if this fields are null
-awards:
-  - title: "AWS Certified Solutions Architect - Associate"
-    date: "2020-01-10"
-    awarder: "aws"
-    summary: "[![logo](../img/aws_saa.png)](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2020-01-10&ci=AWS01214881)"
+awards: []
 volunteer: []
 publications: []
 references: []
